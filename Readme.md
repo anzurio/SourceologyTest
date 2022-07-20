@@ -26,7 +26,7 @@ The solution to this problem is very straighforward thus decided to take some ar
 
 ## Build and Run
 
-In order to build and run the tests, .NET 6 must be installed in the computer with support for C# 9.0
+In order to build and run the tests, .NET 6 must be installed in the computer with support for C# 10.0. Although, I reckon it should be compatible with C# 9.0.
 
 To run the test suite, simple run from the command line
 
