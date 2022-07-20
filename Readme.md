@@ -1,4 +1,4 @@
-This is repository containing my solution to a programming test requested for a position:
+This repository contains my solution to a programming test requested for a position:
 
 ```
 Write a method that takes a string argument and returns whether or not characters in the string have matching brackets. Meaning for every { there is a corresponding } bracket. Return true if they do, return false if they do not. 
@@ -32,4 +32,4 @@ To run the test suite, simple run from the command line
 
 > dotnet test
 
-The small test suite contains the [sample cases suggested](../SymmetricCharactersTests/SymmetricCharacterValidatorTests.cs#L5-L19) along with a few others that exercise the functionality beyond `{}`.
+The small test suite contains the [sample cases suggested](SymmetricCharactersTests/SymmetricCharacterValidatorTests.cs#L5-L19) along with a few others that exercise the functionality beyond `{}`.
