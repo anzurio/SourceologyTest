@@ -1,4 +1,7 @@
-﻿namespace SourceologyTest
+﻿using System;
+using System.Collections.Generic;
+
+namespace SourceologyTest
 {
     public class SymmetricCharacterRules
     {

@@ -1,4 +1,6 @@
-﻿namespace SourceologyTest
+﻿using System.Collections.Generic;
+
+namespace SourceologyTest
 {
     public class SymmetricCharacterValidator
     {
@@ -20,7 +22,7 @@
                 }
                 else if (_rules.Closes(c))
                 {
-                    if (stack.Any() && _rules.Correspond(stack.Peek(), c))
+                    if (stack.TryPeek(out char top) && _rules.Correspond(top, c))
                     {
                         stack.Pop();
                     }
